@@ -24,7 +24,6 @@ const { isShowChatServiceSelectModal } = storeToRefs(chatStore);
 const userStore = useUserStore();
 
 const navType = {
-  github: 'github',
   version: 'version',
   chatService: 'chatService',
   promptStore: 'promptStore',
